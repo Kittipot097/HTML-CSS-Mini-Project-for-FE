@@ -7,13 +7,404 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="style.css">
 </head>
-<body class="bg-[var(--background-color)] text-[var(--text-color)]">
-    <div>
-        <nav class="bg-[var(--primary-color)] p-4">
-            <div class="text-[var(--secondary-color)] font-bold">
-                Hrr<span class="text-[var(--text-color)]">d</span>
+<body class="bg-white text-gray-900 font-rubik">
+    <!-- header -->
+    <header class="lg:h-[956px] relative">
+
+        <div class="parallelogram-landing-page absolute -z-10"></div>
+
+        <!-- navbar -->
+        <nav class="h-[59px] lg:h-[69px] flex items-center justify-between px-4 sm:px-6 pt-8 max-w-7xl m-auto">
+            <div class="flex items-center">
+                <img class="w-[38px] h-[33px] lg:w-20 lg:h-[69px]" src="../asset/image/Logo.png" alt="Logo">
+                <h1 class="text-2xl lg:text-4xl font-medium">Agencio</h1>
             </div>
+            <div class="hidden lg:flex gap-6 items-center text-[var(--nav-color)] text-base">
+                <a href="#" class="rounded-md px-3 py-2 hover:bg-gray-200 duration-300">Home</a>
+                <a href="#" class="rounded-md px-3 py-2 hover:bg-gray-200 duration-300">Category</a>
+                <a href="#" class="rounded-md px-3 py-2 hover:bg-gray-200 duration-300">Service</a>
+                <a href="#" class="rounded-md px-3 py-2 hover:bg-gray-200 duration-300">Blog</a>
+                <a href="#" class="rounded-md px-3 py-2 hover:bg-gray-200 duration-300">Contact</a>
+                <button href="#" class="w-[160px] h-[60px] bg-[var(--third-color)] rounded-[5px] hover:bg-[var(--third-hover-light-color)] duration-300">Create Account</button>
+            </div>
+            <button type="button" class="block lg:hidden">
+                <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-menu-2">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 6l16 0" /><path d="M4 12l16 0" /><path d="M4 18l16 0" />
+                </svg>
+            </button>
         </nav>
-    </div>
+
+        <!-- landing page -->
+        <div class="flex justify-center items-center h-full mt-12 lg:mt-0 px-4 sm:px-6 max-w-7xl m-auto">
+            <div class="md:flex">
+                <div class="flex-none sm:flex-1 mb-[66px] lg:mb-0">
+                    <div class="flex gap-2 mb-4">
+                        <span class="align-baseline text-xl text-[var(--primary-color)]">CREATIVE AGENCY</span>
+                        <div class="border-b-2 border-[var(--primary-color)] w-8 mb-1.5"></div>
+                    </div>
+                    <h1 class="text-5xl max-w-[435px] font-medium mb-5">
+                        We are here to give the best service
+                    </h1>
+                    <p class="max-w-[555px] text-[var(--primary-light-color)] mb-[27px]">It's crafted with the latest trend of design & coded with all modern approaches. It's a robust & multi-dimensional usable template.</p>
+                    <div class="flex items-center">
+                        <button type="button" class="text-white font-medium w-[160px] h-[60px] bg-[var(--primary-color)] hover:bg-[var(--primary-hover-color)] duration-300 rounded-[5px]">
+                            Get Started
+                        </button>
+                        <button type="button" class="w-[160px] h-[60px] text-[var(--primary-color)] flex gap-2 items-center justify-center">
+                            <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-circle-caret-right">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M15 12l-4 -4v8z" /><path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+                            </svg>
+                            <span class="text-[var(--logo-color)] hover:text-[var(--primary-color)] duration-300">Watch Video</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="flex-none sm:flex-1">
+                    <img src="../asset/image/bg-image.png" alt="background landing page" />
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <!-- services -->
+    <section class="h-[1240px] sm:h-auto sm:mb-12 lg:mb-0 lg:h-[626px] pt-12 px-4 sm:px-6 max-w-7xl m-auto">
+        <div class="mb-16">
+            <h1 class="text-5xl max-w-[351px] font-medium">Lets Check Our</h1>
+            <div class="flex gap-2 mb-4" style="align-items: baseline;">
+                <h1 class="text-5xl max-w-[351px] font-medium">Services</h1>
+                <hr class="w-[68px] mb-1.5" style="border: 2px solid var(--primary-color); border-radius: 5px;"/>
+            </div>
+        </div>
+        <div class="grid grid-cols-4 gap-16 sm:gap-12">
+            <div class="col-span-full sm:col-span-2 lg:col-span-1">
+                <img class="w-20 h-20" src="../asset/servics-image/increase-imag.png" alt="increase conversion"/>
+                <p class="text-xl font-medium">Increase conversion</p>
+                <span class="text-[var(--primary-light-color)]">It's crafted with the latest of design & coded with all trendy & modern approaches.</span>
+            </div>
+            <div class="col-span-full sm:col-span-2 lg:col-span-1">
+                <img class="w-20 h-20" src="../asset/servics-image/discussion-image.png" alt="discussion for idea"/>
+                <p class="text-xl font-medium">Discussion for idea</p>
+                <span class="text-[var(--primary-light-color)]">It's crafted with the latest of design & coded with all trendy & modern approaches.</span>
+            </div>
+            <div class="col-span-full sm:col-span-2 lg:col-span-1">
+                <img class="w-20 h-20" src="../asset/servics-image/product-image.png" alt="product analytics"/>
+                <p class="text-xl font-medium">Product analytics</p>
+                <span class="text-[var(--primary-light-color)]">It's crafted with the latest of design & coded with all trendy & modern approaches.</span>
+            </div>
+            <div class="col-span-full sm:col-span-2 lg:col-span-1">
+                <img class="w-20 h-20" src="../asset/servics-image/perfact-image.png" alt="perfect testing"/>
+                <p class="text-xl font-medium">Perfect testing</p>
+                <span class="text-[var(--primary-light-color)]">It's crafted with the latest of design & coded with all trendy & modern approaches.</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- take the work -->
+    <section class="h-[971px] pt-[88px] relative">
+        <div class="parallelogram-work absolute -z-10"></div>
+        <div class="flex flex-col-reverse lg:flex-row items-center px-4 sm:px-6 max-w-7xl m-auto">
+            <div class="flex-none sm:flex-1 mt-14 lg:mt-0">
+                <img src="../asset/take-work-image/bg-take-the-work.png" alt="take the work" />
+            </div>
+            <div class="flex-none sm:flex-1">
+                <div>
+                    <h1 class="text-5xl max-w-[420px] font-medium">We Take The Work</h1>
+                    <div class="flex gap-2 mb-4" style="align-items: baseline;">
+                        <h1 class="text-5xl max-w-[401px] font-medium">Of Your Hand</h1>
+                        <hr class="w-[68px] mb-1.5" style="border: 2px solid var(--primary-color); border-radius: 5px;"/>
+                    </div>
+                </div>
+                <div class="mt-10">
+                    <span class="text-[var(--primary-light-color)] max-w-[570px]:">
+                        It's crafted with the latest trend of design & coded with all modern approaches. It's a robust & multi-dimensional usable.Nostrum placeat hic, praesent atque ornare minim.
+                        <br/>
+                        <br/>
+                        nihil suscipit aliquet excepteur bibendum cumque facilis senectus habitant aliquid cupidatat! Fugit? Nisl dignissimos ratione
+                    </span>
+                </div>
+                <button type="button" class="mt-[30px] text-white font-medium w-[160px] h-[60px] bg-[var(--primary-color)] hover:bg-[var(--primary-hover-color)] duration-300 rounded-[5px]">
+                    Discover More
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Your plan -->
+    <section class="h-[1032px] flex flex-col justify-center items-center px-4 sm:px-6 max-w-7xl m-auto">
+        <span class="text-[var(--primary-light-color)]">Price Plan</span>
+        <h1 class="text-5xl max-w-[588px] font-medium text-center">No Extra Charges!Choose Your Plan.</h1>
+        <div class="w-full mt-20">
+            <div class="relative flex flex-col min-w-0 break-words bg-white w-full">
+                <div class="block w-full overflow-x-auto">
+                    <table class="items-center bg-transparent w-full border-collapse border border-gray-300">
+                        <thead>
+                            <tr>
+                                <th class="border px-6 py-3 whitespace-nowrap text-center">
+                                </th>
+                                <th class="border px-6 py-3 whitespace-nowrap text-center">
+                                    <h2 class="text-3xl text-[var(--third-color)]">$2000</h2>
+                                    <p class="text-xl text-[var(--primary-light-color)] font-normal">Regular</p>
+                                </th>
+                                <th class="border px-6 py-3 whitespace-nowrap text-center">
+                                    <h2 class="text-3xl text-[var(--second-color)]">$3000</h2>
+                                    <p class="text-xl text-[var(--primary-light-color)] font-normal">Premium</p>
+                                </th>
+                                <th class="border px-6 py-3 whitespace-nowrap text-center">
+                                    <h2 class="text-3xl text-[var(--primary-color)]">$5000</h2>
+                                    <p class="text-xl text-[var(--primary-light-color)] font-normal">Corporate</p>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th class="border px-6 whitespace-nowrap p-4 text-left font-normal text-[var(--primary-light-color)]">
+                                    Full Access
+                                </th>
+                                <td class="border px-6 whitespace-nowrap p-4 text-center text-[var(--primary-light-color)]">
+                                        <svg style="margin: auto;" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+                                        </svg>
+                                </td>
+                                <td class="border px-6 whitespace-nowrap p-4 text-center text-[var(--primary-light-color)]">
+                                        <svg style="margin: auto;" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+                                        </svg>
+                                </td>
+                                <td class="border px-6 whitespace-nowrap p-4 text-center text-[var(--primary-color)]">
+                                        <svg style="margin: auto;" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                                        </svg>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th class="border px-6 whitespace-nowrap p-4 text-left font-normal text-[var(--primary-light-color)]">
+                                    Multiple User
+                                </th>
+                                <td class="border px-6 whitespace-nowrap p-4 text-center text-[var(--primary-light-color)]">
+                                    <svg style="margin: auto;" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+                                    </svg>
+                                </td>
+                                <td class="border px-6 whitespace-nowrap p-4 text-center text-[var(--primary-light-color)]">
+                                    <svg style="margin: auto;" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+                                    </svg>
+                                </td>
+                                <td class="border px-6 whitespace-nowrap p-4 text-center text-[var(--primary-color)]">
+                                    <svg style="margin: auto;" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                                    </svg>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th class="border px-6 whitespace-nowrap p-4 text-left font-normal text-[var(--primary-light-color)]">
+                                    Refund
+                                </th>
+                                <td class="border px-6 whitespace-nowrap p-4 text-center text-[var(--primary-light-color)]">
+                                    <svg style="margin: auto;" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+                                    </svg>
+                                </td>
+                                <td class="border px-6 whitespace-nowrap p-4 text-center text-[var(--primary-color)]">
+                                <svg style="margin: auto;" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                                </svg>
+                                </td>
+                                <td class="border px-6 whitespace-nowrap p-4 text-center text-[var(--primary-color)]">
+                                    <svg style="margin: auto;" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                                    </svg>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th class="border px-6 whitespace-nowrap p-4 text-left font-normal text-[var(--primary-light-color)]">
+                                    24/7 Support
+                                </th>
+                                <td class="border px-6 whitespace-nowrap p-4 text-center text-[var(--primary-color)]">
+                                    <svg style="margin: auto;" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                                    </svg>
+                                </td>
+                                <td class="border px-6 whitespace-nowrap p-4 text-center text-[var(--primary-color)]">
+                                    <svg style="margin: auto;" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                                    </svg>
+                                </td>
+                                <td class="border px-6 whitespace-nowrap p-4 text-center text-[var(--primary-color)]">
+                                    <svg style="margin: auto;" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                                    </svg>
+                                </td>
+                            </tr>
+                        </tbody>
+                        <thead>
+                            <tr>
+                                <th class="border px-6 py-3 whitespace-nowrap text-center">
+                                </th>
+                                <th class="border px-6 py-3 whitespace-nowrap">
+                                    <div class="flex flex-col gap-3 items-center">
+                                        <button type="button" class="text-white text-sm font-medium w-[120px] h-[48px] bg-[var(--third-color)] hover:bg-[var(--third-hover-color)] duration-300 rounded-[5px]">
+                                            Choose Plan
+                                        </button>
+                                        <p class="text-[var(--primary-light-color)] font-sm font-normal">Get your 30 days free trial</p>
+                                    </div>
+                                </th>
+                                <th class="border px-6 py-3 whitespace-nowrap">
+                                    <div class="flex flex-col gap-3 items-center">
+                                        <button type="button" class="text-white text-sm font-medium w-[120px] h-[48px] bg-[var(--second-color)] hover:bg-[var(--second-hover-color)] duration-300 rounded-[5px]">
+                                            Choose Plan
+                                        </button>
+                                        <p class="text-[var(--primary-light-color)] font-sm font-normal">Get your 30 days free trial</p>
+                                    </div>
+                                </th>
+                                <th class="border px-6 py-3 whitespace-nowrap">
+                                    <div class="flex flex-col gap-3 items-center">
+                                        <button type="button" class="text-white text-sm font-medium w-[120px] h-[48px] bg-[var(--primary-color)] hover:bg-[var(--primary-hover-color)] duration-300 rounded-[5px]">
+                                            Choose Plan
+                                        </button>
+                                        <p class="text-[var(--primary-light-color)] font-sm font-normal">Get your 30 days free trial</p>
+                                    </div>
+                                </th>
+                            </tr>
+                        </thead>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- user commened -->
+    <section class="h-auto pb-24 lg:pb-0 lg:h-[727px] px-4 sm:px-6 max-w-7xl m-auto">
+        <div class="flex flex-col sm:flex-row gap-6 items-center">
+            <div class="flex-none sm:flex-1">
+                <img class="mx-auto" src="../asset/user-mage/bg-user-commened.png" alt="user commened image" />
+            </div>
+            <div class="flex-none sm:flex-1">
+                <div class="flex flex-col">
+                    <div class="text-[var(--primary-light-color)] relative">
+                        <span>
+                            It’s awesome service. Land from day very fill that midst stars one dominion. Itself was let that divided itself god don't subdue wherein let behold over he whose of sea moved called.
+                        </span>
+                        <span class="text-8xl text-[var(--primary-color)] font-extrabold align-baseline absolute -top-20 left-0">“</span>
+                    </div>
+                </div>
+                <p class="text-2xl text-[var(--third-color)] font-bold mt-8">Jack Smith</p>
+                <span class="text-[var(--primary-light-color)]">CEO of DIANO</span>
+            </div>
+        </div>
+    </section>
+
+        <!-- newsletter -->
+    <section class="h-[349px] flex flex-col gap-4 justify-center items-center bg-[#F4F7FC] rounded-2xl px-4 sm:px-6 max-w-7xl m-auto">
+        <h1 class="text-5xl max-w-[588px] font-medium text-center">Sign up to our newsletter</h1>
+        <span class="mt-4 text-[var(--primary-light-color)] text-xl max-w-[450px] text-center">Recive latest news, updates and many other news every week.</span>
+        <div class="relative w-full max-w-[450px] mt-5">
+            <input type="email" name="email" id="email" autocomplete="email" placeholder="Enter your email address" class="block w-full px-8 h-[67px] rounded-full bg-white text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6">
+            <button type="submit" class="absolute right-2.5 bottom-2.5 bg-[var(--primary-color)] hover:bg-[var(--primary-hover-color)] duration-300 w-11 h-11 rounded-full text-white flex justify-center items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                </svg>
+            </button>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="h-[469px] pt-28 px-4 sm:px-6 max-w-7xl m-auto">
+        <div class="grid grid-cols-1 gap-8 lg:grid-cols-5">
+            <div class="lg:col-span-2">
+                <div class="flex items-center">
+                    <img src="../asset/image/Logo.png" class="w-14 h-14" alt="logo" />
+                    <h1 class="text-2xl font-medium">Agencio</h1>
+                </div>
+                <p class="mt-4 text-[var(--primary-light-color)] max-w-[351px]">
+                    Winged moving moveth created for shall and a divide the their days male midst shall hath doesn't won't for. Midst life.Over a great night.
+                </p>
+            <div class="flex mt-8 space-x-3 text-gray-600">
+                <a class="text-[var(--primary-color)] hover:text-white p-2 rounded-full hover:opacity-75" style="background-color: #DCEAFE;" href>
+                    <span class="sr-only"> Facebook </span>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="16" height="16">
+                        <path d="M18 2a1 1 0 0 1 .993 .883l.007 .117v4a1 1 0 0 1 -.883 .993l-.117 .007h-3v1h3a1 1 0 0 1 .991 1.131l-.02 .112l-1 4a1 1 0 0 1 -.858 .75l-.113 .007h-2v6a1 1 0 0 1 -.883 .993l-.117 .007h-4a1 1 0 0 1 -.993 -.883l-.007 -.117v-6h-2a1 1 0 0 1 -.993 -.883l-.007 -.117v-4a1 1 0 0 1 .883 -.993l.117 -.007h2v-1a6 6 0 0 1 5.775 -5.996l.225 -.004h3z"></path>
+                    </svg>
+                </a>
+                <a class="text-[var(--primary-color)] hover:text-white p-2 rounded-full hover:opacity-75" style="background-color: #DCEAFE;" href>
+                    <span class="sr-only"> twitter </span>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="16" height="16">
+                        <path d="M14.058 3.41c-1.807 .767 -2.995 2.453 -3.056 4.38l-.002 .182l-.243 -.023c-2.392 -.269 -4.498 -1.512 -5.944 -3.531a1 1 0 0 0 -1.685 .092l-.097 .186l-.049 .099c-.719 1.485 -1.19 3.29 -1.017 5.203l.03 .273c.283 2.263 1.5 4.215 3.779 5.679l.173 .107l-.081 .043c-1.315 .663 -2.518 .952 -3.827 .9c-1.056 -.04 -1.446 1.372 -.518 1.878c3.598 1.961 7.461 2.566 10.792 1.6c4.06 -1.18 7.152 -4.223 8.335 -8.433l.127 -.495c.238 -.993 .372 -2.006 .401 -3.024l.003 -.332l.393 -.779l.44 -.862l.214 -.434l.118 -.247c.265 -.565 .456 -1.033 .574 -1.43l.014 -.056l.008 -.018c.22 -.593 -.166 -1.358 -.941 -1.358l-.122 .007a.997 .997 0 0 0 -.231 .057l-.086 .038a7.46 7.46 0 0 1 -.88 .36l-.356 .115l-.271 .08l-.772 .214c-1.336 -1.118 -3.144 -1.254 -5.012 -.554l-.211 .084z"></path>
+                    </svg>
+                </a>
+                <a class="text-[var(--primary-color)] hover:text-white p-2 rounded-full hover:opacity-75" style="background-color: #DCEAFE;" href>
+                    <span class="sr-only"> linkein </span>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" width="16" height="16" stroke-width="2">
+                        <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z"></path>
+                        <path d="M8 11l0 5"></path>
+                        <path d="M8 8l0 .01"></path>
+                        <path d="M12 16l0 -5"></path>
+                        <path d="M16 16v-3a2 2 0 0 0 -4 0"></path>
+                    </svg>
+                </a>
+                <a class="text-[var(--primary-color)] hover:text-white p-2 rounded-full hover:opacity-75" style="background-color: #DCEAFE;" href>
+                    <span class="sr-only"> youtube </span>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="16" height="16">
+                        <path d="M18 3a5 5 0 0 1 5 5v8a5 5 0 0 1 -5 5h-12a5 5 0 0 1 -5 -5v-8a5 5 0 0 1 5 -5zm-9 6v6a1 1 0 0 0 1.514 .857l5 -3a1 1 0 0 0 0 -1.714l-5 -3a1 1 0 0 0 -1.514 .857z"></path>
+                    </svg>
+                </a>
+            </div>
+            </div>
+            <div class="grid grid-cols-1 gap-8 lg:col-span-3 lg:grid-cols-3">
+                <div class="flex justify-between items-center lg:block lg:items-start">
+                    <p class="font-medium">
+                        Features
+                    </p>
+                    <nav class="hidden lg:flex flex-col mt-4 space-y-2 text-sm text-gray-500">
+                        <a class="hover:opacity-75" href> Analytic </a>
+                        <a class="hover:opacity-75" href> Activity </a>
+                        <a class="hover:opacity-75" href> Influencer </a>
+                        <a class="hover:opacity-75" href> Publishing </a>
+                    </nav>
+                    <div class="block lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="24" height="24">
+                            <path d="M18 9c.852 0 1.297 .986 .783 1.623l-.076 .084l-6 6a1 1 0 0 1 -1.32 .083l-.094 -.083l-6 -6l-.083 -.094l-.054 -.077l-.054 -.096l-.017 -.036l-.027 -.067l-.032 -.108l-.01 -.053l-.01 -.06l-.004 -.057v-.118l.005 -.058l.009 -.06l.01 -.052l.032 -.108l.027 -.067l.07 -.132l.065 -.09l.073 -.081l.094 -.083l.077 -.054l.096 -.054l.036 -.017l.067 -.027l.108 -.032l.053 -.01l.06 -.01l.057 -.004l12.059 -.002z"></path>
+                        </svg>
+                    </div>
+                </div>
+                <div class="flex justify-between items-center lg:block lg:items-start">
+                    <p class="font-medium">
+                        About
+                    </p>
+                    <nav class="hidden lg:flex flex-col mt-4 space-y-2 text-sm text-gray-500">
+                        <a class="hover:opacity-75" href> Blog </a>
+                        <a class="hover:opacity-75" href> Pricing </a>
+                        <a class="hover:opacity-75" href> Company </a>
+                        <a class="hover:opacity-75" href> Careers </a>
+                    </nav>
+                    <div class="block lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="24" height="24">
+                            <path d="M18 9c.852 0 1.297 .986 .783 1.623l-.076 .084l-6 6a1 1 0 0 1 -1.32 .083l-.094 -.083l-6 -6l-.083 -.094l-.054 -.077l-.054 -.096l-.017 -.036l-.027 -.067l-.032 -.108l-.01 -.053l-.01 -.06l-.004 -.057v-.118l.005 -.058l.009 -.06l.01 -.052l.032 -.108l.027 -.067l.07 -.132l.065 -.09l.073 -.081l.094 -.083l.077 -.054l.096 -.054l.036 -.017l.067 -.027l.108 -.032l.053 -.01l.06 -.01l.057 -.004l12.059 -.002z"></path>
+                        </svg>
+                    </div>
+                </div>
+                <div class="flex justify-between items-center lg:block lg:items-start">
+                    <p class="font-medium">
+                        Resources
+                    </p>
+                    <nav class="hidden lg:flex flex-col mt-4 space-y-2 text-sm text-gray-500">
+                        <a class="hover:opacity-75" href> Application Security </a>
+                        <a class="hover:opacity-75" href> Software Policy </a>
+                        <a class="hover:opacity-75" href> Supply Chain </a>
+                        <a class="hover:opacity-75" href> Manage Reputation </a>
+                    </nav>
+                    <div class="block lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="24" height="24">
+                            <path d="M18 9c.852 0 1.297 .986 .783 1.623l-.076 .084l-6 6a1 1 0 0 1 -1.32 .083l-.094 -.083l-6 -6l-.083 -.094l-.054 -.077l-.054 -.096l-.017 -.036l-.027 -.067l-.032 -.108l-.01 -.053l-.01 -.06l-.004 -.057v-.118l.005 -.058l.009 -.06l.01 -.052l.032 -.108l.027 -.067l.07 -.132l.065 -.09l.073 -.081l.094 -.083l.077 -.054l.096 -.054l.036 -.017l.067 -.027l.108 -.032l.053 -.01l.06 -.01l.057 -.004l12.059 -.002z"></path>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr class="w-full my-8" style="border: 1px solid #f3f4f6; border-radius: 5px;"/>
+        <p class="text-gray-500 text-center pb-8">
+            Copyright ©2020 Agencio. All Rights Reserved
+        </p>
+    </footer>
 </body>
 </html>
